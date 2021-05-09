@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#41414C" />
+    <link rel="shortcut icon" href="https://d8xabijtzlaac.cloudfront.net/Custom/Content/Themes/Shared/Images/marca-bemol.svg" type="image/png" />
+    <title>Bemol - Single Channel</title>
+
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/partials/page-header.css" />
+    <link rel="stylesheet" href="/styles/partials/cards.css" />
+    <link rel="stylesheet" href="/styles/partials/buttons.css" />
+    <link rel="stylesheet" href="/styles/partials/forms.css" />
+    <link rel="stylesheet" href="/styles/partials/animations.css" />
+    <link rel="stylesheet" href="/styles/pages/profile.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body id="page-profile">
+
+    <%- include('parts/page-header', { title: 'Meu Perfil'}) %>
+
+    
+    <div class="container animate-up delay-2">
+      <aside class="card">
+        <img src="<%= profile.avatar2 %> " alt="<%= profile.name %> ">
+        <h2><%=profile.name %> </h2>
+        
+        <a class="button green" href="https://api.whatsapp.com/send/?phone=5592984522238&text&app_absent=0" form="form-profile" type="submit">Acessar</a>
+      </aside>
+      <aside class="card">
+        <img src="<%= profile.avatar %> " alt="<%= profile.name2 %> ">
+        <h2><%=profile.name2 %> </h2>
+
+        <a class="button green" href="https://chat.bemol.com.br/"  type="submit">Acessar</a>
+      </aside>
+
+      <aside class="card">
+        <img src="<%= profile.avatar3%> " alt="<%= profile.name3 %> ">
+        <h2><%=profile.name3 %> </h2>
+    
+        <a class="button green" href="https://www.bemol.com.br/"  type="submit">Acessar</a>
+      </aside>
+      <main>
+
+      </main>
+    </div>
+    <!-- end container -->
+  </body>
+</html>
+ 
