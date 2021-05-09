@@ -1,26 +1,12 @@
 <h1 align="center">
   Bemol - Single Channel
 </h1>
-![Parte_1](https://github.com/Rubberss/Bemol_single_channel/blob/06028dee512692da776311ec827d939bedb2fe57/public/images/tela.png)
+
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+ <img src="https://github.com/Rubberss/Bemol_single_channel/blob/06028dee512692da776311ec827d939bedb2fe57/public/images/tela.png" alt="PRs welcome!" />
 </p>
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
-<br>
-
-<p align="center">
-  <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
@@ -39,14 +25,91 @@ A ideia do sistema é:
 
 "Apresentar os principais canais de comunicação da Bemol".
 
-## 🔖 Layout
+## 🔖 Começando
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+### Pré-requisitos
 
-## :memo: Licença
+Para executar este projeto no modo de desenvolvimento, você precisará ter um ambiente básico para executar uma Aplicação Web, que pode ser encontrado aqui.
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Além disso, você precisará do servidor executando localmente em sua máquina com os dados fictícios. Você pode encontrar o servidor e todas as instruções para iniciá-lo aqui.
+
+- Baixe o Repositório
+  
+```
+https://github.com/Rubberss/Bemol_single_channel
+```
+  
+  - Conectando o aplicativo Web ao servidor
+
+1 - Baixe o Node.js
+
+é um software de código aberto, multiplataforma, que executa códigos JavaScript no backend/servidor e frontend/interface, baseado no V8 interpretador de JavaScript
+
+2 - Baixe Visual Studio Code
+
+Abra o projeto utilizando VSC
+logo em seguida abra o terminal com o atalho Ctrl + Shift + P
+digite os seguintes comandos no passo 3
+
+3- Pacotes necessários para executar o sistema
+
+siga os seguintes passos de comandos em sequência:
+
+```
+npm init -y
+```
+
+```
+npm i express
+```
+
+```
+npm i nodemon -D
+```
+
+```
+npm i ejs
+```
+
+4 - Alterações no Package
+
+Abra seu arquivo package.json e altere as seguintes linhas:
+
+
+```
+"main": "index.js" para "main": "src/server.js"
+```
+e
+```
+"dev": "echo \"Error: no test specified\" && exit 1" para  "dev": "nodemon ."
+```
+
+
+5 - Execute o Projeto
+
+No mesmo terminal digite:
+
+```
+node  src/server.js
+```
+
+Abra seu navegador e digite o seguinte endereço:
+
+http://localhost:3000/
+
+
+**OBS.:**   Este metodo é opcional, tendo outros meios de instalação.
+
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+## Diagramas C4 Model
+
+### Diagrama de Contexto
+Este é um diagrama de contexto da Aplicação Web BeSell fictício, mostrando uma visão geral da primeira camada de interação do cliente, e depois a segunda camada técnica do sistema.
+
+
+
+---
+
+Feito com ♥ by Rubber Rodriguez
