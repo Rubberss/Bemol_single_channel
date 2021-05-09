@@ -1,7 +1,7 @@
 <h1 align="center">
   Bemol - Single Channel
 </h1>
-![Parte_1] (https://github.com/Rubberss/Bemol_single_channel/blob/06028dee512692da776311ec827d939bedb2fe57/public/images/tela.png)
+![Parte_1](https://github.com/Rubberss/Bemol_single_channel/blob/06028dee512692da776311ec827d939bedb2fe57/public/images/tela.png)
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
