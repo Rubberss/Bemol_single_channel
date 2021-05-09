@@ -108,6 +108,7 @@ http://localhost:3000/
 ### Diagrama de Contexto
 Este é um diagrama de contexto da Aplicação Web BeSell fictício, mostrando uma visão geral da primeira camada de interação do cliente, e depois a segunda camada técnica do sistema.
 
+![D_C1](https://github.com/Rubberss/Bemol_single_channel/blob/1a7aaeaf0a4561d93ddd759acac977346e3ce567/c4-model/C4-model.png)
 
 
 ---
